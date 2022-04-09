@@ -1,16 +1,15 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "issak-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Issak's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Issak Yuy",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",

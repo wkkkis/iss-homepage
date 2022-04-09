@@ -29,6 +29,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
         color={active ? '#202023' : inactiveColor}
         _target={_target}
         {...props}
+        style={{borderRadius: "5px"}}
       >
         {children}
       </Link>
@@ -58,9 +59,9 @@ const Navbar = props => {
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+          {/*<Heading as="h1" size="lg" letterSpacing={'tighter'}>*/}
             <Logo />
-          </Heading>
+          {/*</Heading>*/}
         </Flex>
 
         <Stack
@@ -72,14 +73,11 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+            Работы
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/wkkkis"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -87,7 +85,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+             <p style={{marginLeft: "5px"}}>GitHub</p>
           </LinkItem>
         </Stack>
 
@@ -104,19 +102,16 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Главная</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                  <MenuItem as={Link}>Работы</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/wkkkis"
                 >
-                  View Source
+                  GitHub
                 </MenuItem>
               </MenuList>
             </Menu>
