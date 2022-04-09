@@ -102,7 +102,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Web</BioYear>
-          ReactJS, NextJS, NodeJS, Webpack,
+          ReactJS, NextJS, NodeJS, TypeScript, Webpack,
           Axios, Context, Redux, Mobx,
           JWT, REST API, Redux Thunk, Paddle
         </BioSection>
