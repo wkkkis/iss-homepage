@@ -77,19 +77,29 @@ const Home = () => (
         <BioSection>
           <BioYear>2019</BioYear>
           Заинтересовался программированием.
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
           Начал активно углубляться в разработку для прокачки своих навыков с помощью фриланс проектов.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
+          <BioYear>2020 - 2021</BioYear>
           Работал в разлиных компаниях улучшая свои навыки в разработке
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           Работаю в интересных для меня проектах
         </BioSection>
+      </Section>
+
+      <Section delay={0.2}>
+      <Heading
+          as="span"
+          fontFamily="sans-serif"
+          fontSize="20px"
+        >
+          Компании
+        </Heading>
+        <BioSection>
+            Ditate.me, Sunrise Studio, Irokez, Makers, Statsnet
+        </BioSection> 
       </Section>
 
       <Section delay={0.2}>
