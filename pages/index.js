@@ -38,14 +38,14 @@ const Home = () => (
             fontFamily="sans-serif"
             fontSize="30px"
           >
-            {/*<Text*/}
-            {/*  style={{fontSize: "30px"}}*/}
-            {/*  fontFamily='sans-serif'*/}
-            {/*>*/}
             Исхак Ишмахаметов
-            {/*</Text>*/}
           </Heading>
           <p>Front-End разработчик</p>
+          <a href="/cv/cv.pdf" target='_blank'>
+            <Button mt={3}>
+                ПОСМОТРЕТЬ РЕЗЮМЕ
+            </Button>
+          </a>
         </Box>
         <Box
           flexShrink={0}
@@ -90,7 +90,7 @@ const Home = () => (
       </Section>
 
       <Section delay={0.2}>
-      <Heading
+        <Heading
           as="span"
           fontFamily="sans-serif"
           fontSize="20px"
