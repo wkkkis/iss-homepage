@@ -135,22 +135,44 @@ const Home = () => (
                     Stack
                 </Heading>
                 <BioSection>
-                    <BioYear>Web</BioYear>
-                    ReactJS, NextJS, NodeJS, TypeScript, Webpack, Axios,
-                    Context, Redux, Mobx, JWT, REST API, Redux Thunk, Paddle
+                    <BioYear>-</BioYear>
+                    HTML5, CSS3 (Sass/Scss/Less);
                 </BioSection>
                 <BioSection>
-                    <BioYear>Web</BioYear>
-                    Gulp, Nunjucks, NativeJS, D3JS
+                    <BioYear>-</BioYear>
+                    Javascript (ES6+);
                 </BioSection>
                 <BioSection>
-                    <BioYear>Web</BioYear>
-                    Material UI, TailWind, Styled Components, Bootstrap, CSS
-                    Modules, SASS
+                    <BioYear>-</BioYear>
+                    Typescript;
                 </BioSection>
                 <BioSection>
-                    <BioYear>Web</BioYear>
-                    HTML, CSS
+                    <BioYear>-</BioYear>
+                    Next.js;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Unit testing, Jest;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Webpack, Estimate, Gulp;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Optimize, SEO, PageSpeed, LightHause;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Nunjucks, Thymeleaf;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Git, GitHub, GitLab, BitBucket;
+                </BioSection>
+                <BioSection>
+                    <BioYear>-</BioYear>
+                    Node.js, Express;
                 </BioSection>
             </Section>
 
