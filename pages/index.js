@@ -93,10 +93,6 @@ const Home = () => (
                     Компании
                 </Heading>
                 <BioSection>
-                    <BioYear>Июнь 2022 — Август 2022 (3 месяца)</BioYear>
-                    FortyLines
-                </BioSection>
-                <BioSection>
                     <BioYear>
                         Октябрь 2021 — По настоящее время (11 месяцев)
                     </BioYear>
@@ -115,17 +111,7 @@ const Home = () => (
                     Ditate.me
                 </BioSection>
                 <BioSection>
-                    <BioYear>Сентябрь 2020 — Декабрь 2020 (4 месяца)</BioYear>
-                    Irokez
-                </BioSection>
-                <BioSection>
-                    <BioYear>Август 2020 — Октябрь 2020 (3 месяца)</BioYear>
-                    Sunrise Studio
-                </BioSection>
-                <BioSection>
-                    <BioYear>
-                        Январь 2019 — Апрель 2020 (1 год и 4 месяца)
-                    </BioYear>
+                    <BioYear>Январь 2019 — Май 2021 (2 год и 4 месяца)</BioYear>
                     Фриланс
                 </BioSection>
             </Section>
@@ -194,7 +180,7 @@ const Home = () => (
                     </ListItem>
                     <ListItem>
                         <Link
-                            href="https://instagram.com/layryc"
+                            href="https://instagram.com/aizen.iss"
                             target="_blank"
                         >
                             <Button
@@ -202,7 +188,7 @@ const Home = () => (
                                 colorScheme="teal"
                                 leftIcon={<Icon as={IoLogoInstagram} />}
                             >
-                                @layryc
+                                @aizen.iss
                             </Button>
                         </Link>
                     </ListItem>
